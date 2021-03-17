@@ -6,6 +6,7 @@ import com.cyquen.presentcloud.entity.UserDto;
 import com.cyquen.presentcloud.security.CurrentUserDetails;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
